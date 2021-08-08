@@ -10,4 +10,4 @@ Guia de instalacion:
 
 Informacion adicional:
 
-En el archivo config.js se encuentra el numero de puerto utilizado
+En el archivo config.js encuentra el numero de puerto utilizado
