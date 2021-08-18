@@ -979,6 +979,7 @@ app.post('/orders/:id/product/:productIndex', loginCheck, function (req, res) {
     res.send({ resultado: 'Se agrego el producto exitosamente', product });
 });
 
+//#region / Cambio de estado orden
 /**
  * @swagger
  * /orders/{id}:
@@ -1019,6 +1020,7 @@ app.post('/orders/:id/product/:productIndex', loginCheck, function (req, res) {
  *      200:
  *        description: Se modifico el estado correctemente
  */
+//#endregion
 app.patch('/orders/:id', loginCheck, adminCheck, function (req, res) {
     orderIndex = req.params.id;
     userOrder = arrayOrders[orderIndex];
