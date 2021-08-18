@@ -664,8 +664,8 @@ app.post('/payments', loginCheck, adminCheck, function (req, res) {
  * /payments/{index}:
  *  patch:
  *    tags: [payments]
- *    summary: Agrega formas de pago
- *    description : Agrega formas de pago
+ *    summary: Actualizar formas de pago
+ *    description : Actualizar formas de pago
  *    consumes:
  *      - application/json
  *    parameters:

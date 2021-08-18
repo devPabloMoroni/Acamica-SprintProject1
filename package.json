@@ -1,8 +1,8 @@
 {
   "name": "acamica-sprintproject1",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Proyecto final de Sprint 1",
-  "main": "apps.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/devPabloMoroni/Acamica-SprintProject1.git"
   },
-  "author": "Pablo Moroni de los Santos",
+  "author": "Pablo Moroni",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devPabloMoroni/Acamica-SprintProject1/issues"
@@ -18,7 +18,6 @@
   "homepage": "https://github.com/devPabloMoroni/Acamica-SprintProject1#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.12",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.1.6"
   }
