@@ -1,0 +1,11 @@
+{
+  "name": "v2.0",
+  "version": "2.0.0",
+  "description": "Proyecto final de Sprint 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Moroni",
+  "license": "ISC"
+}
